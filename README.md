@@ -208,6 +208,8 @@ Run tests
 ```bash
 ./mvnw test
 ```
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/b412d770-110f-41dd-b576-47a5fe9c8e47" />
+
 ---
 
 ## 👤 Author
