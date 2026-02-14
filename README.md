@@ -23,9 +23,59 @@ A robust backend application built with **Spring Boot** and **Java** to streamli
 ## 📂 Project Structure
 
 ```text
-src/main/java/com/rajkiran/acharyya/HospitalManagementSystem/
-├── controller/    # REST Controllers (API Endpoints)
-├── dto/           # Data Transfer Objects (Request/Response models)
-├── entity/        # JPA Entities (Database Tables)
-├── repository/    # Data Access Layer (Interfaces)
-└── service/       # Business Logic
+HospitalManagementSystem
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── .mvn
+│   └── wrapper
+│       └── maven-wrapper.properties
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       └── rajkiran
+    │   │           └── acharyya
+    │   │               └── HospitalManagementSystem
+    │   │                   ├── HospitalManagementSystemApplication.java
+    │   │                   ├── controller
+    │   │                   │   └── HospitalManagementController.java
+    │   │                   ├── dto
+    │   │                   │   ├── AppointmentDTO.java
+    │   │                   │   ├── AppointmentRequestDTO.java
+    │   │                   │   ├── DoctorDTO.java
+    │   │                   │   ├── DoctorRequestDTO.java
+    │   │                   │   ├── PatientDTO.java
+    │   │                   │   └── PatientRequestDTO.java
+    │   │                   ├── entity
+    │   │                   │   ├── Appointment.java
+    │   │                   │   ├── Doctor.java
+    │   │                   │   ├── Insurance.java
+    │   │                   │   └── Patient.java
+    │   │                   ├── repository
+    │   │                   │   ├── AppointmentRepository.java
+    │   │                   │   ├── DoctorRepository.java
+    │   │                   │   ├── InsuranceRepository.java
+    │   │                   │   └── PatientRepository.java
+    │   │                   └── service
+    │   │                       ├── AppointmentService.java
+    │   │                       ├── DoctorService.java
+    │   │                       ├── InsuranceService.java
+    │   │                       └── PatientService.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── data.sql
+    │       ├── static
+    │       └── templates
+    └── test
+        └── java
+            └── com
+                └── rajkiran
+                    └── acharyya
+                        └── HospitalManagementSystem
+                            ├── AppointmentTesting.java
+                            ├── HospitalManagementSystemApplicationTests.java
+                            ├── InsuranceTesting.java
+                            └── PatientTesting.java
+
