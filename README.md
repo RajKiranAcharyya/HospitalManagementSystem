@@ -134,6 +134,7 @@ Response
 ```
 Welcome To Raj's Hospital Management System
 ```
+<img width="1382" height="595" alt="image" src="https://github.com/user-attachments/assets/6a25bbcd-4963-42f0-88d5-af426211fe12" />
 
 ---
 
@@ -149,6 +150,7 @@ Request Body (JSON)
   "email": "strange@marvel.com"
 }
 ```
+<img width="1419" height="779" alt="image" src="https://github.com/user-attachments/assets/22118dfa-a975-4e12-b2e3-704262476c9b" />
 
 ---
 
@@ -168,6 +170,7 @@ Request Body (JSON)
   "birthDate": "1970-05-29"
 }
 ```
+<img width="1412" height="838" alt="image" src="https://github.com/user-attachments/assets/ee243793-d828-417f-8f02-9e83a65fe14e" />
 
 ---
 
@@ -185,6 +188,7 @@ Request Body (JSON)
   "doctorId": 1
 }
 ```
+<img width="1434" height="763" alt="image" src="https://github.com/user-attachments/assets/237f9f68-e63b-42a9-a20b-50feafc0a328" />
 
 ---
 
@@ -195,6 +199,8 @@ Request Body (JSON)
 @GetMapping("/patients/{id}")
 
 ---
+<img width="1548" height="803" alt="image" src="https://github.com/user-attachments/assets/7f62f1bd-653a-4816-a339-0105ae9ea4ff" />
+
 
 ## 🧪 Testing
 
