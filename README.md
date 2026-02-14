@@ -9,16 +9,8 @@ A robust backend application built with **Spring Boot** and **Java** to streamli
 * **Appointment Scheduling**: Book appointments linking patients to doctors.
 * **Appointment Tracking**: View all scheduled appointments and their status.
 * **Insurance Integration**: Link insurance policies to patient records.
-* **Database Integration**: Persistent storage using MySQL with Hibernate/JPA relationships (One-to-One, One-to-Many).
-
-
-## 🚀 Info
-* **Patients**: Add 'em, track 'em, manage 'em.
-* **Doctors**: Onboard specialists and keep their info handy.
-* **Appointments**: Schedule visits and link patients to docs.
-* **Insurance**: Attach policies to patient records (One-to-One mapping).
 * **Data Seeding**: Comes with pre-loaded dummy data (`data.sql`) so you can test immediately.
-* **Database**: All data is safe and sound in MySQL.
+* **Database Integration**: Persistent storage using MySQL with Hibernate/JPA relationships (One-to-One, One-to-Many).
 
 ## 🛠️ Tech Stack
 
