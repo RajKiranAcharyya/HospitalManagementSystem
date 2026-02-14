@@ -208,7 +208,6 @@ Run tests
 ```bash
 ./mvnw test
 ```
-
 ---
 
 ## 👤 Author
